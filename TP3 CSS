@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+    line-height: 1.7;
+    padding: 40px 20px;
+}
+
+/* Container */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 1.3em;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+/* Section Styling */
+section {
+    padding: 30px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #1e3c72;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-left: 5px solid #2a5298;
+    padding-left: 15px;
+}
+
+/* Lists and Items */
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 12px;
+    font-size: 1.1em;
+}
+
+ul li strong {
+    color: #2a5298;
+    width: 150px;
+    display: inline-block;
+}
+
+/* Education and Experience Items */
+.item {
+    margin-bottom: 25px;
+}
+
+.item h3 {
+    color: #333;
+    font-size: 1.25em;
+    margin-bottom: 5px;
+}
+
+.item p {
+    color: #666;
+    font-style: italic;
+    font-size: 1em;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #f9f9f9;
+    color: #888;
+    font-size: 0.9em;
+}
+
+/* Simple Hover Effect for Sections */
+section:hover {
+    background-color: #fafbfc;
+    transition: background 0.4s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 { font-size: 2em; }
+    main { margin: 0; border-radius: 0; }
+    ul li strong { display: block; width: 100%; margin-bottom: 5px; }
+}
